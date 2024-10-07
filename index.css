@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 a{
+  text-decoration: none;
+}
+.navbar-brand{
   transition: color 0.3s;
   text-decoration: none;
   color: black;
@@ -29,10 +32,10 @@ hr{
   text-align: center;
   margin:0 auto;
 }
-a:hover{
+.navbar-brand:hover{
   color : #ff7043;
 }
-a:active{
+.navbar-brand:active{
   color : #ff7043
 }
 body{
@@ -69,7 +72,7 @@ div.home-grid{
   justify-content: center;
 
 }
-h2{
+.sub-title{
   border-bottom: 2px #b3d0d7 solid;
   padding: 0 8px 8px;
   margin: auto;
@@ -117,4 +120,61 @@ aside{
 .news-contents{
   display: flex;
   text-align: center;
+}
+/*news*/
+.news__day{
+  font-size:18px;
+  text-align: left;
+  font-family: Oswald;  
+  margin-left: 30px;
+}
+.news__category{
+  font-size:12px;
+  font-family: Oswald;
+  text-decoration: none;
+  color: white;
+}
+button {
+  background-color: #4CAF50; /* 背景色 */
+  color: white; /* 文字色 */
+  padding: 0px 10px; /* パディング */
+  text-align: center; /* 文字のアライメント */
+  text-decoration: none; /* 文字装飾 */
+  display: inline-block; /* ボタンの表示方法 */
+  margin:auto; /* 外側の余白 */
+  cursor: pointer; /* カーソル */
+  border: none; /* ボーダーなし */
+  border-radius: 8px; /* 8pxの角丸 */
+  
+}
+button:hover {
+  background-color: #3e8e41;
+}
+.news__titleArea{
+  display:flex;
+}
+.news__titleArea div{
+  margin: 10px;
+}
+.category{
+  font-size:16px;
+  font-family: Oswald;
+  text-decoration: none;
+  color: white;
+}
+.news-mainArea{
+  margin: 0 auto;
+}
+.news__title{
+  margin-left: 50px;
+  text-decoration: none;
+  font-size:30px;
+}
+.news-textArea{
+  margin-left: 80px;  
+}
+.news-item{
+  font-size:20px;
+  text-align: center;
+  margin:0 auto;
 }
